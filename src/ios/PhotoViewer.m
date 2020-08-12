@@ -227,6 +227,7 @@
     if(showCloseBtn) {
         closeBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         [closeBtn setTitle:@"✕" forState:UIControlStateNormal];
+        closeBtn.accessibilityLabel = @"Schließen";
         closeBtn.titleLabel.font = [UIFont systemFontOfSize: 32];
         [closeBtn setTitleColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.6] forState:UIControlStateNormal];
         [closeBtn setFrame:CGRectMake(viewWidth - 50, 30, 50, 50)];
