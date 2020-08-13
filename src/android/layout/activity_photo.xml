@@ -59,7 +59,8 @@
                 android:background="@android:color/transparent"
                 android:src="@android:drawable/ic_menu_close_clear_cancel"
                 android:padding="8dp"
-                android:text="Close"
+                android:text="Schließen"
+                android:contentDescription="Schließen"
                 android:gravity="right" />
 
         </LinearLayout>
